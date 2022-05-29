@@ -1,15 +1,27 @@
 .box{
-    border: 4px solid black;
-    background-color: yellow;
-    margin: 10px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .div{
     border-color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
 .grid{
-    height: 600px;
-    width: 600px;
+    height: 512px;
+    width: 512px;
+    position: relative;
     background-color: grey;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
+}
+
+.box.active{
+    background-color: violet;
 }
